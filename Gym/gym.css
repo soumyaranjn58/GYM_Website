@@ -1,0 +1,205 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    font-family: 'Roboto',sans-serif ;
+    background-color: black;
+    color: beige;
+}
+nav{
+    position:fixed;
+    width: 100%;
+    top:0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0px 2px 6px 2px;
+    padding: 20px;
+}
+nav ul{
+    margin-right: 42px;
+    margin-top: 6px;
+}
+nav ul a {
+    margin-inline: 20px;
+    color: beige;
+    text-decoration: none;
+}
+.logo{
+    margin-right: 13px;
+    margin-top: 22px;
+
+}
+ul a:hover{
+    color: rgb(2,253,2);
+    border-bottom: 2px solid rgb(2,253,2) ;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color:  rgb(19, 223, 49);
+    font-size: 18px;
+    border: none;
+}
+ nav button:hover{
+    border: 2px solid green;
+    background-color: transparent;
+    color: beige;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 104px;
+}
+.main h1{
+    color: rgb(19, 223, 49);
+    font-size: 77px;
+}
+.main h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.main p{
+    color: silver;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    margin-top: 22px;
+    background-color: rgb(19, 223, 49);
+    color: beige;
+    border: none;
+    font-size: 22px;
+}
+.main img{
+    margin-inline: center;
+}
+.head{
+    text-align:center;
+    padding:193px;
+    margin-top:45px;
+}
+.head span{
+    color: red;
+}
+
+.train{
+    display:flex;
+    justify-content:center;
+}
+ .train .card{
+    width:330px;
+    height: 400px;
+    
+    background-color: silver;
+    margin-inline: 12px;
+    
+}
+.card img{
+    width:100%;
+    
+}
+.slide{
+    width: 900px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+.slide img{
+    width:29%;
+    margin-inline:22px;
+    border-radius: 9px;
+}
+.btn{
+    text-align: center;
+    padding: 55px;
+}
+.btn button{
+    width:90px;
+    height: 30px;
+    background-color:rgb(19, 223, 49) ;
+    color: white;
+    font-size: 19px;
+    border: none;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+.btn button:hover{
+    border: 2px solid green;
+    background-color: transparent;
+    color: beige;
+
+}
+.program{
+    display: flex;
+    justify-content: center;
+}
+.program .proCard{
+    width: 330px;
+    height: 400px;
+    margin-inline:14px;
+    text-align:center;
+}
+.proCard:hover{
+    height: 420px;
+    transition: 0.5s ease;
+}
+.program img {
+    width: 90%;
+    height: 100%;
+}
+.connect{
+    text-align: center;
+}
+.connect input{
+    width:400px;
+    padding: 11px;
+    border:none;
+    outline: none;
+    font-size:20px;
+    margin-top:11px;
+}
+.connect button{
+    width:180px;
+    height: 44px;
+    background-color:rgb(19, 223, 49) ;
+    color: beige;
+    font-size: 27px;
+    border: none;
+    margin-top:22px;
+}
+.footer{
+    display: flex;
+    justify-content:space-around ;
+    background-color: silver;
+    padding:55px;
+    margin-top: 55px;
+}
+/*join*/
+.join{
+    display: none;
+    position:absolute;
+    margin-left: 83%;
+    top:16%;
+    background-color: #fff;
+    text-align: center;
+    width: 180px;
+    padding: 22px;
+}
+.join input{
+    width:165px;
+    padding: 4px;
+    outline: none;
+    margin-top: 11px;
+
+}
+.join button{
+    width:90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    border: none;
+    
+}
